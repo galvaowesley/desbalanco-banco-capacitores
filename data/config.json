@@ -1,0 +1,17 @@
+{
+    "constants": {
+        "capacit_nom_capacitor_uF": 24.3,    
+        "capacit_nom_fase_uF": 3.24,         
+        "temp_ref_C": 20,                     
+        "tensao_nom_kV": 530,
+        "frequencia_Hz": 60          
+    },
+    "constraints": {
+        "tolerancia_diferenca": 1e-3, 
+        "tolerancia_diferenca_pernas": 1e-2, 
+        "tolerancia_var_capacit_fase": 5, 
+        "val_admit_capacit_capacitor_uF": [23.085, 25.515], 
+        "corrente_desbalanco_alarme_A": 0.17, 
+        "tensao_nom_sistema_kV": 530
+    }
+}
